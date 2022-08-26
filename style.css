@@ -1,0 +1,76 @@
+*{
+          margin: 0;
+          box-sizing: border-box;
+      }
+      /* Your code goes here */
+      body{
+          background: #23304c;
+      }
+      header{
+          background: #23304c;
+          height: 150px;
+          width: 100%;
+      }
+      
+      .navbar-brand{
+          font-size: small;
+          background: #0a889a;
+          border-radius: 20px;
+          border: none;
+          size: 10px;
+          width: 120px;
+          transition-duration: 0.4s;
+          height: 25pt;
+          margin-left: -35px;
+      }
+      .navbar-brand:hover {
+        background-color: #455a96;
+        cursor: pointer;
+      }
+      .navbar-toggler{
+          margin-right: 20pt;
+          border: none;
+          
+      }
+      .navbar-light .navbar-toggler-icon {
+        background-image: url(assets/images/Hamberger.png);
+    }
+    
+    
+    .col-md-6 {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 63%;
+    }
+    p{
+        color: white;
+        font-weight: bold;
+        font-family: sans-serif;
+    }
+    @media (min-width: 1200px) {
+        .responsive-font {
+          font-size: 48px;
+        }
+      }
+      /* If the screen size is smaller than 1200px, set the font-size to 80px */
+      @media (max-width: 1199.98px) {
+        .responsive-font {
+          font-size: 22px;
+        }
+      }
+      .getButton{
+          font-size: small;
+          background: #0a889a;
+          border-radius: 20px;
+          border: none;
+          size: 10px;
+          width: 120px;
+          transition-duration: 0.4s;
+          height: 25pt;
+      }
+      .getButton:hover {
+        background-color: #455a96;
+        cursor: pointer;
+      }
+    
